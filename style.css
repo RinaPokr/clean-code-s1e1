@@ -12,6 +12,7 @@ body {
 }
 .aaa img {
   width: 100%;
+  display: block;
 }
 .aaa .more_inf {
   font-family: fantasy, cursive;
@@ -102,7 +103,7 @@ p > button:hover {
 /* Task list */
 li {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 19px 0;
   border-bottom: 1px solid #eee;
 
   display: flex;
@@ -138,7 +139,6 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through;
   color: #888;
 }
 
