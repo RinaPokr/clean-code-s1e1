@@ -19,28 +19,28 @@
   margin: 0 0 20px;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
   padding-bottom: 15px;
 }
-.aaa img {
+.header__img {
   width: 100%;
   display: block;
 }
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
 
-  .aaa { 
+  .header { 
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto;
@@ -54,11 +54,11 @@
 .task-row-wrapper {
   display: flex;
 }
-ul {
+ul {  /*сброс стилей*/
   margin: 0;
   padding: 0px;
 }
-li {
+li {  /*сброс стилей*/
   list-style: none;
 }
 .input {
