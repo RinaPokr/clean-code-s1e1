@@ -129,17 +129,17 @@ li >  input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.button-delete__img {
   height: 2em;
   transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.button-delete__img:hover {
   transform: rotate(0);
 }
 
 /* Completed */
-ul#completed label {
+ul.completed label {
   text-decoration: line-through;
   color: #888;
 }
