@@ -51,7 +51,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.wrapper {
   display: flex;
 }
 ul {  /*сброс стилей*/
